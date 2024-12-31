@@ -108,6 +108,9 @@ class _MyHomePageState extends State<MyHomePage> {
             const Text(
               'Get A Welcome-Text',
             ),
+            const Text(
+              'Fixed this code base with Java 11',
+            ),
             Text(
               'Hye! Hello there[$_counter]',
               style: Theme.of(context).textTheme.headlineMedium,
