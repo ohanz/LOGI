@@ -106,21 +106,17 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'Get A Welcome-Text',
+              'Welcome to Logi!',
             ),
             const Text(
-              'Fixed this code base with Java 11',
-            ),
-            Text(
-              'Hye! Hello there[$_counter]',
-              style: Theme.of(context).textTheme.headlineMedium,
+              'Sign Up Now Below.',
             ),
           ],
         ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
-        tooltip: 'Increment',
+        tooltip: 'Show Form',
         child: const Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
